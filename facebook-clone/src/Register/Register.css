@@ -1,0 +1,114 @@
+.registration-form-container{
+  margin: 20px auto;
+  width: 432px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+ .registration-form-heading{
+  text-align: center;
+  padding: 10px 16px;
+}
+
+.registration-form-heading h2{
+  color: #1c1e21;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.registration-form-heading h4{
+  color: #606770;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.registration-form{
+  /* display: grid; */
+  padding: 16px;
+  /* grid-template-columns: auto auto auto; */
+  /* gap: 10px; */
+  margin: 0 auto;
+  /* width: 399px; */
+}
+
+.surname-input{
+  margin-left: 15px;
+  margin-top: 10px
+}
+
+.registration-form input{
+  border: 1px solid #ccd0d5;
+  padding: 11px;
+  border-radius: 5px;
+ 
+}
+
+select{
+  border: 1px solid #ccd0d5;
+  padding: 0 8px;
+  width: 125px;
+  height: 36px;
+  border-radius: 5px;
+}
+
+.mobile-input, .password-input {
+  width: 399px;
+  margin-top: 10px;
+}
+
+.dob{
+  display: block;
+  font-size: 12px;
+  margin-top: 10px
+}
+
+.dropdown{
+  display: flex;
+  gap: 10px;
+}
+
+.gender-input{
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.radio-buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.radio-buttons span{
+  border: 1px solid #ccd0d5;
+  width: 125px;
+  height: 36px;
+}
+
+span{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-radius: 5px;
+  padding: 10px
+}
+
+.register-submit-btn{
+  background-color: #00a400;
+  padding: 3px 60px;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  margin: 10px 100px;
+}
+
+.registration-clause{
+  font-size: 11px;
+  color: #777;
+}
+
+.registration-clause p{
+  margin: 1em 0
+}

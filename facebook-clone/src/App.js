@@ -1,18 +1,13 @@
 import './App.css';
-import LeftSideBar from './LeftSideBar/LeftSideBar';
+// import LeftSideBar from './LeftSideBar/LeftSideBar';
 import Login from './Login/Login';
-import RightSideBar from './RightSideBar/RightSideBar';
-import TopBar from './TopBar/TopBar';
+import Register from './Register/Register';
 
 function App() {
   return (
     <div className="App">
-      {/* <Login/> */}
-      <TopBar/>
-      <div className='hidden md:flex justify-between'>
-      <RightSideBar/>
-      <LeftSideBar/>
-      </div>
+      <Login/>
+      <Register />
     </div>
   );
 }
