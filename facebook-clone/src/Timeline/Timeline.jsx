@@ -2,7 +2,12 @@ import React from 'react'
 
 function Timeline() {
   return (
-    <div>Timeline</div>
+    <>
+    <div className='w-[60%] bg-black p-[2%]'>
+      
+
+    </div>
+    </>
   )
 }
 

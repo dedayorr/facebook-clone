@@ -6,17 +6,17 @@ import { MdCircleNotifications } from "react-icons/md";
 
 function TopBar() {
   return (
-    <div className="sticky top-0 flex justify-center items-center mx-auto bg-[#3a3939] p-[2%] md:p-[1%] z-99">
+    <div className="sticky top-0 flex justify-center items-center mx-auto bg-[#272626] p-[2%] md:p-[1%] z-99">
       <div className="hidden md:block text-white text-3xl">facebook</div>
       <div className="text-3xl text-blue-500 md:hidden ">
         <BsFacebook />
       </div>
-      <div className="flex border w-[65%] md:w-[43%] mx-auto rounded-3xl p-[1%] md:p-[5px] items-center gap-[5px] md:gap-[10px]">
+      <div className="bg-[#686767] flex border w-[65%] md:w-[40%] mx-auto rounded-3xl p-[1%] md:p-[5px] items-center gap-[5px] md:gap-[10px]">
         <div className="text-white md:text-2xl">
           <GoSearch />
         </div>
         <input
-          className="bg-[#00000000] md:text-2xl"
+          className="bg-[#686767] md:text-2xl"
           type="text"
           name="search"
           placeholder="Search Facebook"
