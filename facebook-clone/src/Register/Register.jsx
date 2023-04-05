@@ -31,11 +31,11 @@ import "./Register.css"
           <label>Female</label>
           <input type="radio"/>
         </span>
-        <span>
+        <span className="single-radio">
           <label>Male</label>
           <input type="radio" />
         </span>
-        <span>
+        <span className="single-radio">
           <label>Custom</label>
           <input type="radio"/>
         </span>

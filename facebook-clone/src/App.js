@@ -11,15 +11,15 @@ import TopBar from "./TopBar/TopBar";
 function App() {
   return (
     <div className="App">
-      {/* <Login/>
-      <Register /> */}
-      {/* <TopBar />
-      <div className="flex justify-between">
+      {/* <Login /> */}
+      {/* <Register /> */}
+      {/* {/* <TopBar /> */}
+      {/* <div className="flex justify-between">
         <RightSideBar />
-        <Timeline/>
+        <Timeline />
         <LeftSideBar />
       </div> */}
-      <Profile/>
+      <Profile />
     </div>
   );
 }
