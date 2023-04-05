@@ -11,11 +11,11 @@ function App() {
     <div className="App">
       {/* <Login/>
       <Register /> */}
-      <TopBar />
-      <div className="flex justify-between">
+      {/* <TopBar /> */}
+      {/* <div className="flex justify-between">
         <RightSideBar />
         <LeftSideBar />
-      </div>
+      </div> */}
     </div>
   );
 }
