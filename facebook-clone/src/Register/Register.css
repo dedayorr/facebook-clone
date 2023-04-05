@@ -87,7 +87,7 @@ select{
   height: 36px;
 }
 
-span{
+.single-radio{
   display: flex;
   align-items: center;
   gap: 40px;
