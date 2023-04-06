@@ -9,6 +9,13 @@ import { ImLocation2 } from "react-icons/im";
 import { AiFillHeart } from "react-icons/ai";
 import { GiRadarSweep } from "react-icons/gi";
 import { HiDotsCircleHorizontal } from "react-icons/hi";
+import { MdPhotoLibrary } from "react-icons/md";
+import { AiFillStar } from "react-icons/ai";
+import { RiFlagFill } from "react-icons/ri";
+import {AiOutlineLike } from "react-icons/ai";
+import {MdOutlineModeComment } from "react-icons/md";
+import {RiShareForwardLine } from "react-icons/ri";
+
 // import {CgProfile} from "react-icons/cg"
 
 function Profile() {
@@ -108,22 +115,194 @@ function Profile() {
       <div className="bg-black text-white p-[20px]">
         <div className="flex justify-between">
           <p className="text-lg">Friends</p>
-          <a href="" target="_blank">See all</a>
+          <a href="/" target="_blank">See all</a>
         </div>
         <p className="text-sm opacity-50">5,600 friends</p>
-        <div>
+        
+        <div className="grid grid-cols-3 gap-[5px]">
           <div>
-          <img src="" alt=""/>
-          <p>Ruth</p>
+          <img className="h-[100px] w-[100px]" src="./assets/Images/blesssing.jpeg" alt=""/>
+          <p>Blessing</p>
           </div>
           <div>
-          <img src="" alt=""/>
-          <p>Ruth</p>
+          <img className="h-[100px] w-[100px]" src="./assets/Images/durosola.jpeg" alt=""/>
+          <p>Durosola</p>
           </div>
           <div>
-          <img src="" alt=""/>
-          <p>Ruth</p>
+          <img className="h-[100px] w-[100px]" src="./assets/Images/eboda.jpeg" alt=""/>
+          <p>Eboda</p>
           </div>
+          <div>
+          <img className="h-[100px] w-[100px]" src="./assets/Images/lolu.jpeg" alt=""/>
+          <p>Omololu</p>
+          </div>
+          <div>
+          <img className="h-[100px] w-[100px]" src="./assets/Images/sorelina.jpeg" alt=""/>
+          <p>Sorelina</p>
+          </div>
+          <div>
+          <img className="h-[100px] w-[100px]" src="./assets/Images/yisola.jpg" alt=""/>
+          <p>Yisola</p>
+          </div>
+        </div>
+
+        <div className="flex gap-[25px] mt-[5%]">
+          <div className="flex bg-[#787777] p-[6px] rounded-full items-center gap-[5px]">
+            <MdPhotoLibrary/>
+            <p>Photos</p>
+          </div>
+          <div className="flex bg-[#787777] p-[6px] rounded-full items-center gap-[5px]">
+            <AiFillStar/>
+            <p>Life events</p>
+          </div>
+        </div>
+
+        <div className="mt-[5%]">
+          <p className="font-bold">Posts</p>
+          <div className="flex justify-between items-center">
+            <img className="rounded-full w-[40px]" src="./assets/Images/dummy.jpeg" alt=""/>
+            <input className="p-[7px] rounded-2xl w-[75%]" type="text" placeholder="Post a status update" name="post"/>
+            <div className="text-3xl">
+            <MdPhotoLibrary/>
+            </div>
+          </div>
+
+          <div className="flex justify-between mt-[5%]">
+            <div className="flex gap-[9px] ">
+            <div className="text-green-500">
+            <MdPhotoLibrary/>
+            </div>
+            <p className="text-sm">Photo</p>
+            </div>
+            <div className="flex gap-[9px]">
+            <div className="text-red-500">
+            <ImLocation2/>
+            </div>
+            <p className="text-sm">Check in</p>
+            </div>
+            <div className="flex gap-[9px]">
+            <div className="text-purple-500">
+            <RiFlagFill/>
+            </div>
+            <p className="text-sm">Life Event</p>
+            </div>
+          </div>
+
+          <hr className="mt-[5%]"/>
+
+          <div className="mt-[5%]">
+            <div className="flex items-center justify-between">
+              <div className="flex gap-[20px]">
+              <img className="w-[40px] rounded-full" src="./assets/Images/sorelina.jpeg" alt=""/>
+              <div>
+              <p className="flex items-center text-lg justify-between">Sorelina E.</p>
+              <p className="text-sm opacity-50">Apr 12, 2023 .</p>
+              </div>
+              </div>
+              <BiDotsHorizontalRounded/>
+            </div>
+            <p className="text-xl mt-[2%]">Happy Birthday, Wishing you longest life and prosperity</p>
+
+            <div className="flex justify-between mt-[20px]">
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <AiOutlineLike/>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <MdOutlineModeComment/>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <RiShareForwardLine/>
+              </button>
+            </div>
+          </div>
+
+          <hr className="mt-[5%]"/>
+
+          <div className="mt-[5%]">
+            <div className="flex items-center justify-between">
+              <div className="flex gap-[20px]">
+              <img className="w-[40px] rounded-full" src="./assets/Images/lolu.jpeg" alt=""/>
+              <div>
+              <p className="flex items-center text-lg justify-between">Omololu S.</p>
+              <p className="text-sm opacity-50">Apr 12, 2023 .</p>
+              </div>
+              </div>
+              <BiDotsHorizontalRounded/>
+            </div>
+            <p className="text-xl mt-[2%]">Happy Birthday to you dear, more life</p>
+
+            <div className="flex justify-between mt-[20px]">
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <AiOutlineLike/>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <MdOutlineModeComment/>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <RiShareForwardLine/>
+              </button>
+            </div>
+          </div>
+
+          <hr className="mt-[5%]"/>
+
+          <div className="mt-[5%]">
+            <div className="flex items-center justify-between">
+              <div className="flex gap-[20px]">
+              <img className="w-[40px] rounded-full" src="./assets/Images/eboda.jpeg" alt=""/>
+              <div>
+              <p className="flex items-center text-lg justify-between">Temidayo E.</p>
+              <p className="text-sm opacity-50">Apr 12, 2023 .</p>
+              </div>
+              </div>
+              <BiDotsHorizontalRounded/>
+            </div>
+            <p className="text-xl mt-[2%]">Birthday blessings OG, God bless your new age</p>
+
+            <div className="flex justify-between mt-[20px]">
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <AiOutlineLike/>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <MdOutlineModeComment/>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] rounded-xl text-xl">
+                <RiShareForwardLine/>
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-[5%]">
+            <div className="mb-[5%] flex items-center justify-between">
+              <div className="flex gap-[20px]">
+              <img className="w-[40px] rounded-full" src="./assets/Images/deke4.jpeg" alt=""/>
+              <div>
+              <p className="flex items-center text-lg justify-between">Moradeke Solanke.</p>
+              <p className="text-sm opacity-50">Apr 12, 2023 .</p>
+              </div>
+              </div>
+              <BiDotsHorizontalRounded/>
+            </div>
+            
+            <img src="./assets/Images/deke6.jpeg" alt=""/>
+
+            <div className="flex justify-between mt-[20px]">
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] gap-[5px] items-center rounded-xl text-xl">
+                <AiOutlineLike/>
+                <p className="text-lg">600</p>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] gap-[5px] items-center rounded-xl text-xl">
+                <MdOutlineModeComment/>
+                <p className="text-lg">70</p>
+              </button>
+              <button className="flex justify-center bg-[#575757] p-[2%] w-[30%] gap-[5px] items-center rounded-xl text-xl">
+                <RiShareForwardLine/>
+                <p className="text-lg">3</p>
+              </button>
+            </div>
+          </div>
+
+          <a className="flex justify-center mt-[10%] text-xl" href="/">Loading more...</a>
         </div>
       </div>
     </>
